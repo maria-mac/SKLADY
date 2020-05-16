@@ -1,0 +1,29 @@
+.header {
+  background-color: #ccdbb9;
+  height: 50px;
+  top: 0px;
+  /* border-bottom-style: solid; 
+  border-bottom-width: thin;
+  border-bottom-color: #464e44; */
+}
+#tytul {
+  position: relative;
+  width: 200px;
+  height: 38px;
+  left: 15px;
+  top: 5px;
+
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 30px;
+  line-height: 38px;
+  color: #464e44;
+}
+#menu {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  height: 40px;
+  width: 50px;
+  color: #464e44;
+}

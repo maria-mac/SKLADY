@@ -1,0 +1,26 @@
+.App {
+  background-image: url("./graph/flowers4.svg");
+  min-height: 100vh;
+  min-width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Bellota Text", cursive;
+}
+button {
+  width: 200px;
+  height: 31px;
+  background-color: #464e44;
+  color: #deeccb;
+  border: none;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  outline: none;
+}
+button:hover {
+  background-color: #6e7a6b;
+  color: #dbecc5;
+  cursor: pointer;
+}
+button:active {
+  background-color: #464e44;
+}

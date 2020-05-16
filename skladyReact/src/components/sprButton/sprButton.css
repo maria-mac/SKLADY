@@ -1,0 +1,8 @@
+#buttonBox {
+  width: 200px;
+  margin: 25px auto 10px auto;
+}
+#sButton {
+  font-family: 'Bellota Text', cursive;
+  font-weight: 500;
+}

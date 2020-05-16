@@ -1,0 +1,53 @@
+#wynikBox {
+  width: 80vw;
+  height: 45vh;
+  margin: 40px auto 20px auto;
+  /*background-color: #ccdbb9e3;*/
+  color: #262b26;
+  word-wrap: normal;
+  overflow-y: auto;
+  border-radius: 5px;
+  font-weight: 600;
+  padding: 1px 15px;
+  box-sizing: border-box;
+}
+.wynP {
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-content: center;
+  color: #deeccb;
+}
+.wynP:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+#nazwa {
+  text-align: center;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ccdbb9;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ccdbb9;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  height: 10px;
+  background: #555;
+  border-radius: 5px;
+}

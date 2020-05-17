@@ -1,5 +1,6 @@
 import React from "react";
 import "./Landing.css";
+import Lista from "../Lista/Lista";
 
 const Landing = ({ handleCloseLanding, show }) => {
 
@@ -14,6 +15,7 @@ const Landing = ({ handleCloseLanding, show }) => {
             <button className="btn">Lista składników</button>
             <button className="btn">O aplikacji</button>
         </div>
+        <Lista />
         </div>
     )
 }

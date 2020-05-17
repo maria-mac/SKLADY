@@ -5,11 +5,11 @@ const Leading = () => {
     return (
         <div id="leadingbox">
         <div id="contentbox">
-            <h1>SKŁADY</h1>
-            <p>Twoja świadoma pielęgnacja</p>
-            <button>Sprawdź skład</button>
-            <button>Lista składników</button>
-            <button>O aplikacji</button>
+            <div id="tytul">SKŁADY</div>
+            <div id="podtytul">Twoja świadoma pielęgnacja</div>
+            <button className="btn">Sprawdź skład</button>
+            <button className="btn">Lista składników</button>
+            <button className="btn">O aplikacji</button>
         </div>
         </div>
     )

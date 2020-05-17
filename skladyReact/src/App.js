@@ -14,7 +14,6 @@ function App() {
   let [info, setInfo] = useState("");
   let zlePodane = [];
   let podSklad = [];
-  let zleLow = [];
   const newPodanySklad = (newSklad) => {
     setPodanySklad(newSklad);
   };

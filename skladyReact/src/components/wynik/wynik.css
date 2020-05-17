@@ -51,3 +51,8 @@
   background: #555;
   border-radius: 5px;
 }
+#inf {
+  text-align: center;
+  background-color: rgba(204, 219, 185, 0.9);
+  border-radius: 5px;
+}

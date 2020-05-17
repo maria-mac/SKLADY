@@ -27,7 +27,7 @@ const Wynik = ({ wyn, inf }) => {
   return (
     <div id="wynikBox">
       <div>{skladniki}</div>
-      <p>{inf}</p>
+      <p id="inf">{inf}</p>
       <Modal handleClose={closeModal} name={name} des={des} show={show} />
     </div>
   );

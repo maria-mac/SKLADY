@@ -8,7 +8,6 @@
     left: 0;
     z-index: +2;
     text-align: center;
-    display: none;
 }
 #arrow1 {
     color: #ccdbb9;
@@ -23,3 +22,10 @@
     color: #ccdbb9;
     margin-top: 50px;
 }
+.display-block {
+    display: block;
+  }
+  
+  .display-none {
+    display: none;
+  }

@@ -1,5 +1,5 @@
 import React from "react";
-import { FiMenu } from "react-icons/fi";
+import { RiArrowLeftSLine } from "react-icons/ri";
 import "./header.css";
 
 const Header = () => {
@@ -7,7 +7,7 @@ const Header = () => {
     <div className="header">
       <div id="tytul1">SKŁADY</div>
       
-    <FiMenu id="menu"/>
+    <RiArrowLeftSLine id="arrow"/>
       
     </div>
   );

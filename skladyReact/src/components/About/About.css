@@ -1,0 +1,31 @@
+#aboutbox {
+    width: 100%;
+    height: 100%;
+    background-color: #464e44;
+    font-family: "Bellota Text", cursive;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: +2;
+    text-align: center;
+}
+#arrow2 {
+    color: #ccdbb9;
+    position: absolute;
+  left: 2px;
+  top: 7px;
+  font-size: 2em;
+  cursor: pointer;
+}
+#abouttext {
+    font-size: larger;
+    color: #ccdbb9;
+    margin-top: 50px;
+}
+.display-block {
+    display: block;
+  }
+  
+  .display-none {
+    display: none;
+  }

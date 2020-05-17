@@ -45,114 +45,114 @@ let zleSkladniki = [
     style: { backgroundColor: "rgba(67, 155, 93, 0.9)" },
   },
   {
-    name: ["mineral oil", "parafina", "paraffinum", "paraffinum liquidum"],
+    name: ["Parafina","Mineral Oil", "Paraffinum", "Paraffinum Liquidum"],
     des:
       "parafina, natłuszcza ale działa komedogennie. Pochodna ropy naftowej.",
     style: { backgroundColor: "rgba(224, 70, 70, 0.9)" },
   },
   {
-    name: ["petrolatum"],
+    name: ["Wazelina","Petrolatum"],
     des: "wazelina.",
     style: { backgroundColor: "rgba(224, 70, 70, 0.9)" },
   },
   {
-    name: ["dimethicone"],
+    name: ["Dimethicone"],
     des: "silkon.",
     style: { backgroundColor: "rgba(224, 70, 70, 0.9)" },
   },
   {
-    name: ["adimethicone"],
+    name: ["Adimethicone"],
     des: "silikon.",
     style: { backgroundColor: "rgba(224, 70, 70, 0.9)" },
   },
   {
-    name: ["cyclopentasiloxane"],
+    name: ["Cyclopentasiloxane"],
     des: "slikon.",
     style: { backgroundColor: "rgba(224, 70, 70, 0.9)" },
   },
   {
-    name: ["glycery Cocoate", "peg-7"],
+    name: ["Glycery Cocoate", "PEG-7", "PEG 7", "PEG7"],
     des: "PEG-7",
     style: { backgroundColor: "rgba(224, 70, 70, 0.9)" },
   },
   {
-    name: ["sodium myreth sulfate", "sms"],
+    name: ["Sodium Myreth Sulfate", "SMS"],
     des: "anionowy środek powierzchniowo czynny.",
     style: { backgroundColor: "rgba(224, 70, 70, 0.9)" },
   },
   {
-    name: ["ammonium lauryl sulfate", "ams"],
+    name: ["Ammonium Lauryl Sulfate", "AMS"],
     des: "anionowy środek powierzchniowo czynny.",
     style: { backgroundColor: "rgba(224, 70, 70, 0.9)" },
   },
   {
-    name: ["magnesium laureth sulfate", "mls"],
-    des: "anionowy środek powierzchniowo czynny.",
-    style: { backgroundColor: "rgba(224, 70, 70, 0.9)" },
-  },
-
-  {
-    name: ["disodium lauryl sulfosuccinate", "dls"],
+    name: ["Magnesium Laureth Sulfate", "MLS"],
     des: "anionowy środek powierzchniowo czynny.",
     style: { backgroundColor: "rgba(224, 70, 70, 0.9)" },
   },
 
   {
-    name: ["coco glucoside", "coco-glucoside"],
+    name: ["Disodium Lauryl Sulfosuccinate", "DLS"],
+    des: "anionowy środek powierzchniowo czynny.",
+    style: { backgroundColor: "rgba(224, 70, 70, 0.9)" },
+  },
+
+  {
+    name: ["Coco Glucoside", "Coco-Glucoside"],
     des: "glukozyd kokodowy, niejonowy środek powierzchniowo czynny.",
     style: { backgroundColor: "rgba(67, 155, 93, 0.9)" },
   },
 
   {
-    name: ["lauryl glucoside", "lauryl-glucoside"],
+    name: ["Lauryl Glucoside", "Lauryl-Glucoside"],
     des: "glukozyd laurylowy, niejonowy środek powierzchniowo czynny.",
     style: { backgroundColor: "rgba(67, 155, 93, 0.9)" },
   },
 
   {
-    name: ["decyl glucoside", "decyl-glucoside"],
+    name: ["Decyl Glucoside", "Decyl-Glucoside"],
     des: "glukozyd decylowy, niejonowy środek powierzchniowo czynny.",
     style: { backgroundColor: "rgba(67, 155, 93, 0.9)" },
   },
 
   {
-    name: ["cocamidopropyl betaine"],
+    name: ["Betaina Kokamidopropylowa", "Cocamidopropyl Betaine"],
     des: "betaina kokamidopropylowa, środek powierzchniowo czynny.",
     style: { backgroundColor: "rgba(67, 155, 93, 0.9)" },
   },
 
   {
-    name: ["sodium cocoamphoacetate"],
+    name: ["Sodium Cocoamphoacetate"],
     des: "środek powierzchniowo czynny.",
     style: { backgroundColor: "rgba(67, 155, 93, 0.9)" },
   },
   {
-    name: ["sodium cocoyl isethionate"],
+    name: ["Sodium Cocoyl Isethionate"],
     des: "środek powierzchniowo czynny.",
     style: { backgroundColor: "rgba(67, 155, 93, 0.9)" },
   },
   {
-    name: ["sarcosinate"],
+    name: ["Sarcosinate"],
     des: "środek myjący dodawany do kremów.",
     sstyle: { backgroundColor: "rgba(221, 130, 77, 0.9)" },
   },
   {
-    name: ["sodium cocoyl glutamate"],
+    name: ["Sodium Cocoyl Glutamate"],
     des: "środek myjący dodawany do kremów.",
     style: { backgroundColor: "rgba(221, 130, 77, 0.9)" },
   },
   {
-    name: ["Benzyl Alcohol", "Alkohol Benzylowy"],
+    name: ["Alkohol Benzylowy", "Benzyl Alcohol"],
     des: "alkohol benzylowy, konserwant.",
     style: { backgroundColor: "rgba(67, 155, 93, 0.9)" },
   },
   {
-    name: ["Isopropyl Alcohol", "Isopropanol"],
+    name: ["Alkohol Izopropylowy", "Isopropyl Alcohol", "Isopropanol"],
     des: "izopropanol, wykazuje działanie wysuszające oraz alergizujące skórę.",
     style: { backgroundColor: "rgba(224, 70, 70, 0.9)" },
   },
   {
-    name: ["Aqua", "Woda"],
+    name: ["Woda", "Aqua"],
     des: "woda.",
     style: { backgroundColor: "rgba(67, 155, 93, 0.9)" },
   },
@@ -162,58 +162,58 @@ let zleSkladniki = [
     style: { backgroundColor: "rgba(224, 70, 70, 0.9)" },
   },
   {
-    name: ["mandelic acid"],
+    name: ["Mandelic Acid"],
     des: "kwas, substancja drażniąca.",
     style: { backgroundColor: "rgba(221, 130, 77, 0.9)" },
   },
   {
-    name: ["gluconolactone"],
+    name: ["Glukonolakton", "Gluconolactone"],
     des: "glukonolakton, substancja drażniąca.",
     style: { backgroundColor: "rgba(221, 130, 77, 0.9)" },
   },
   {
-    name: ["peg"],
+    name: ["PEG"],
     des: "substancja drażniąca.",
     style: { backgroundColor: "rgba(224, 70, 70, 0.9)" },
   },
   {
-    name: ["ppg"],
+    name: ["PPG"],
     des: "substancja drażniąca.",
     style: { backgroundColor: "rgba(224, 70, 70, 0.9)" },
   },
   {
-    name: ["propylene glycol"],
+    name: ["Glikol Propylenowy", "Propylene Glycol"],
     des: "glikol propylenowy, substancja drażniąca, promotor przenikania.",
     style: { backgroundColor: "rgba(224, 70, 70, 0.9)" },
   },
   {
-    name: ["butylene glycol", "glikol butylenowy"],
+    name: ["Glikol Butylenowy", "Butylene Glycol"],
     des: "glikol butylenowy, może działać drażniąco.",
     style: { backgroundColor: "rgba(224, 70, 70, 0.9)" },
   },
   {
-    name: ["disodium edta"],
+    name: ["Disodium EDTA"],
     des:
       "Disodium EDTA, substancja drażniąca, promotor przenikania, narusza warstwę hydro-lipidową naskóka.",
     style: { backgroundColor: "rgba(224, 70, 70, 0.9)" },
   },
   {
-    name: ["diazolidinyl urea", "imidiazolidinyl urea"],
+    name: ["Diazolidinyl Urea", "Imidiazolidinyl Urea"],
     des: "donor formaldehydu.",
     style: { backgroundColor: "rgba(224, 70, 70, 0.9)" },
   },
   {
-    name: ["methylisothiazolinone", "methylchloroisothaizolinnone"],
+    name: ["Methylisothiazolinone", "Methylchloroisothaizolinnone"],
     des: "donor formaldehydu.",
     style: { backgroundColor: "rgba(224, 70, 70, 0.9)" },
   },
   {
-    name: ["dmdm hydrantoin"],
+    name: ["DMDM Hydrantoin"],
     des: "donor formaldehydu.",
     style: { backgroundColor: "rgba(224, 70, 70, 0.9)" },
   },
   {
-    name: ["quaternium"],
+    name: ["Quaternium"],
     des: "donor formaldehydu",
     style: { backgroundColor: "rgba(224, 70, 70, 0.9)" },
   },

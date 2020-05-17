@@ -18,6 +18,14 @@ function App() {
     setPodanySklad(newSklad);
   };
 
+  const [showLeading, setShowLeading] = useState(true);
+  const closeLeading = () => {
+    setShowLeading(false)
+  };
+  const openLeading = () => {
+    setShowLeading(true)
+  };
+
   const sprawdzSkladniki = () => {
     podanySklad = podanySklad.toLowerCase();
     podanySklad = podanySklad.replace("/", ",");
@@ -56,7 +64,7 @@ function App() {
 
   return (
     <div className="App">
-      <Leading />
+      <Leading handleCloseLeading={closeLeading} show={showLeading}/>
       <Header />
       <Inci newPodanySkladFunc={newPodanySklad} />
       <SprButton sprawdzSkladnikiFunc={sprawdzSkladniki} />

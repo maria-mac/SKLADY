@@ -5,6 +5,7 @@ import Inci from "./components/Inci/Inci.js";
 import SprButton from "./components/sprButton/sprButton.js";
 import Wynik from "./components/wynik/wynik.js";
 import zleSkladniki from "./components/data/data.js";
+import Leading from "./components/Leading/Leading.js";
 
 function App() {
   const { name, des, style } = zleSkladniki;
@@ -56,6 +57,7 @@ function App() {
 
   return (
     <div className="App">
+      <Leading />
       <Header />
       <Inci newPodanySkladFunc={newPodanySklad} />
       <SprButton sprawdzSkladnikiFunc={sprawdzSkladniki} />

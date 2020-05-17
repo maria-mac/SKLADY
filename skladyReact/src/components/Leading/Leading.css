@@ -1,0 +1,45 @@
+#leadingbox {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../graph/1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Bellota Text", cursive;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: +1;
+  display: none;
+}
+#contentbox {
+  width: 80vw;
+  height: 80vh;
+  background-color: rgba(204, 219, 185, 0.9);
+  color: #464e44;
+  text-align: center;
+  border-radius: 5px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+#tytul {
+    width: 90%;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 70px;
+    margin-bottom: 5px;
+    font-size: 2.5em;
+}
+#podtytul {
+    height: 35%;
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 5px;
+    
+}
+.btn {
+    margin-bottom: 10px;
+    margin-left: 5px;
+}

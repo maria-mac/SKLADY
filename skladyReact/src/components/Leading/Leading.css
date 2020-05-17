@@ -14,7 +14,7 @@
 #contentbox {
   width: 80vw;
   height: 80vh;
-  background-color: #ccdbb9;
+  background-color: rgba(204, 219, 185, 0.9);
   color: #464e44;
   text-align: center;
   border-radius: 5px;

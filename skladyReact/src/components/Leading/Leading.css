@@ -24,7 +24,6 @@
   transform: translate(-50%,-50%);
 }
 #tytul {
-    width: 90%;
     text-align: center;
     font-weight: 600;
     margin-top: 70px;
@@ -36,7 +35,6 @@
     text-align: center;
     font-size: larger;
     margin-bottom: 5px;
-    
 }
 .btn {
     margin-bottom: 10px;

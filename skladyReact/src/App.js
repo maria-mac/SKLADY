@@ -65,7 +65,7 @@ function App() {
   return (
     <div className="App">
       <Leading handleCloseLeading={closeLeading} show={showLeading}/>
-      <Header />
+      <Header handleopenLeading={openLeading}/>
       <Inci newPodanySkladFunc={newPodanySklad} />
       <SprButton sprawdzSkladnikiFunc={sprawdzSkladniki} />
       <Wynik wyn={wynik} inf={info} />

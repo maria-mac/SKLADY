@@ -30,6 +30,7 @@ function App() {
     podanySklad = podanySklad.toLowerCase();
     podanySklad = podanySklad.replace("/", ",");
     podanySklad = podanySklad.replace(".", ",");
+    podanySklad = podanySklad.replace(":", ",");
     podanySklad = podanySklad.split(",");
     podanySklad = podanySklad.forEach((val) => {
       let a = val.length;

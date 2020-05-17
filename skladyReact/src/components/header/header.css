@@ -7,11 +7,11 @@
   border-bottom-color: #464e44; */
 }
 #tytul1 {
-  position: relative;
-  width: 200px;
+  position: absolute;
+  width: 120px;
   height: 38px;
-  left: 15px;
-  top: 5px;
+  right: 5px;
+  top: 7px;
 
   font-style: normal;
   font-weight: 1000;
@@ -19,11 +19,10 @@
   line-height: 38px;
   color: #464e44;
 }
-#menu {
+#arrow {
   position: absolute;
-  right: 5px;
-  top: 5px;
-  height: 40px;
-  width: 50px;
+  left: 2px;
+  top: 7px;
+  font-size: 2em;
   color: #464e44;
 }

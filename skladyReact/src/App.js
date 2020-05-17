@@ -5,7 +5,7 @@ import Inci from "./components/Inci/Inci.js";
 import SprButton from "./components/sprButton/sprButton.js";
 import Wynik from "./components/wynik/wynik.js";
 import zleSkladniki from "./components/data/data.js";
-import Leading from "./components/Leading/Leading.js";
+import Landing from "./components/Landing/Landing.js";
 
 function App() {
   const { name, des, style } = zleSkladniki;
@@ -18,12 +18,12 @@ function App() {
     setPodanySklad(newSklad);
   };
 
-  const [showLeading, setShowLeading] = useState(true);
-  const closeLeading = () => {
-    setShowLeading(false)
+  const [showLanding, setShowLanding] = useState(true);
+  const closeLanding = () => {
+    setShowLanding(false)
   };
-  const openLeading = () => {
-    setShowLeading(true)
+  const openLanding = () => {
+    setShowLanding(true)
   };
 
   const sprawdzSkladniki = () => {
@@ -64,8 +64,8 @@ function App() {
 
   return (
     <div className="App">
-      <Leading handleCloseLeading={closeLeading} show={showLeading}/>
-      <Header handleopenLeading={openLeading}/>
+      <Landing handleCloseLanding={closeLanding} show={showLanding}/>
+      <Header handleopenLanding={openLanding}/>
       <Inci newPodanySkladFunc={newPodanySklad} />
       <SprButton sprawdzSkladnikiFunc={sprawdzSkladniki} />
       <Wynik wyn={wynik} inf={info} />

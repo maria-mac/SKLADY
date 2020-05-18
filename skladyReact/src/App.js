@@ -20,25 +20,26 @@ function App() {
 
   const [showLanding, setShowLanding] = useState(true);
   const closeLanding = () => {
-    setShowLanding(false)
+    setShowLanding(false);
   };
   const openLanding = () => {
-    setShowLanding(true)
+    setShowLanding(true);
   };
 
   const sprawdzSkladniki = () => {
-    podanySklad = podanySklad.toLowerCase();
-    podanySklad = podanySklad.replace("/", ",");
-    podanySklad = podanySklad.replace(".", ",");
-    podanySklad = podanySklad.replace(":", ",");
-    podanySklad = podanySklad.split(",");
-    podanySklad = podanySklad.forEach((val) => {
-      let a = val.length;
-      let b = val.indexOf("(");
-      let c = val.indexOf(")");
-      val = val.substring(0, b - 1) + val.substring(c + 1, a); //b-1, a nie b zeby nie było spaji
-      podSklad = podSklad.concat(val);
-    });
+    podanySklad
+      .toLowerCase()
+      .replace("/", ",")
+      .replace(".", ",")
+      .replace(":", ",")
+      .split(",")
+      .forEach((val) => {
+        let a = val.length;
+        let b = val.indexOf("(");
+        let c = val.indexOf(")");
+        val = val.substring(0, b - 1) + val.substring(c + 1, a); //b-1, a nie b zeby nie było spaji
+        podSklad = podSklad.concat(val);
+      });
     podSklad = podSklad.map((value) => value.trim());
     podSklad = new Set(podSklad);
     podSklad = [...podSklad];
@@ -65,8 +66,8 @@ function App() {
 
   return (
     <div className="App">
-      <Landing handleCloseLanding={closeLanding} show={showLanding}/>
-      <Header handleopenLanding={openLanding}/>
+      <Landing handleCloseLanding={closeLanding} show={showLanding} />
+      <Header handleopenLanding={openLanding} />
       <Inci newPodanySkladFunc={newPodanySklad} />
       <SprButton sprawdzSkladnikiFunc={sprawdzSkladniki} />
       <Wynik wyn={wynik} inf={info} />

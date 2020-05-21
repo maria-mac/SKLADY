@@ -13,6 +13,7 @@
 #contentbox {
   width: 80vw;
   height: 80vh;
+  min-width: 220px;
   background-color: rgba(204, 219, 185, 0.9);
   color: #464e44;
   text-align: center;
@@ -26,7 +27,7 @@
 #tytul {
     text-align: center;
     font-weight: 600;
-    margin-top: 70px;
+    margin-top: 10vh;
     margin-bottom: 5px;
     font-size: 2.5em;
 }
